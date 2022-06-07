@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/2jdmtec/AndroidStudioProjects/QuizColor/app/src/main/res/drawable/fundo1.xml" value="0.1" />
+        <entry key="..\:/Users/2jdmtec/AndroidStudioProjects/QuizColor/app/src/main/res/drawable/fundo2.xml" value="0.2625" />
+        <entry key="..\:/Users/2jdmtec/AndroidStudioProjects/QuizColor/app/src/main/res/drawable/listafundos.xml" value="0.2555" />
+        <entry key="..\:/Users/2jdmtec/AndroidStudioProjects/QuizColor/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/2jdmtec/AndroidStudioProjects/QuizColor/app/src/main/res/layout/activity_main2.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/QuizColor/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/QuizColor/app/src/main/res/layout/activity_main2.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/QuizColor/app/src/main/res/layout/activity_questao1.xml" value="0.2" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/drawable/fundo1.xml" value="0.218" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/drawable/fundo2.xml" value="0.218" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/layout/activity_creditos.xml" value="0.14385964912280702" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/layout/activity_questao1.xml" value="0.25" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/layout/activity_questao2.xml" value="0.22" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/layout/activity_questao3.xml" value="0.33" />
+        <entry key="..\:/Users/ddsm4/Downloads/QuizColor/app/src/main/res/layout/activity_tela_erro.xml" value="0.12780082987551866" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

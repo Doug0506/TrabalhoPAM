@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_questao2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listafundos"
+    tools:context=".Questao2">
+
+    <TextView
+        android:id="@+id/textQ2Nome"
+        android:layout_width="144dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/font_dk"
+        android:text="Nome"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <ImageView
+        android:id="@+id/q2image"
+        android:layout_width="200dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpt1"
+        app:layout_constraintVertical_bias="0.015"
+        app:srcCompat="@drawable/questao2" />
+
+    <ImageButton
+        android:id="@+id/imageconfig"
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/config"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textpt1"
+        android:layout_width="381dp"
+        android:layout_height="108dp"
+        android:fontFamily="@font/font_dk"
+        android:text="Os olhos humanos normalmente têm três tipos de cones responsáveis pela percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores básicas, como indica a figura."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <TextView
+        android:id="@+id/textpt2"
+        android:layout_width="371dp"
+        android:layout_height="128dp"
+        android:fontFamily="@font/font_dk"
+        android:text="A protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor dos cartões que lhes são mostrados. São utilizadas as cores indicadas na figura."
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/q2image"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="-450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbAzul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_dk"
+            android:text="Azul" />
+
+        <RadioButton
+            android:id="@+id/rbVermelho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_dk"
+            android:text="Vermelho" />
+
+        <RadioButton
+            android:id="@+id/rbMagenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_dk"
+            android:text="Magenta" />
+
+        <RadioButton
+            android:id="@+id/rbAmarelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_dk"
+            android:minHeight="48dp"
+            android:text="Amarelo"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnconfirma2"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="Confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

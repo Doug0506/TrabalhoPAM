@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz Color</string>
+
+    <string name="pergunta1"></string>
+    <string name="jogar">Jogar</string>
+    <string name="seu_nome">Seu nome</string>
+</resources>
