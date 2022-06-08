@@ -13,7 +13,7 @@
         android:layout_width="327dp"
         android:layout_height="144dp"
         android:fontFamily="@font/font_dk"
-        android:text="Infomações"
+        android:text="@string/Informacoes"
         android:textSize="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

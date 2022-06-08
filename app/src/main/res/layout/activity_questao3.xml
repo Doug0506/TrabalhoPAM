@@ -13,7 +13,7 @@
         android:layout_width="140dp"
         android:layout_height="70dp"
         android:fontFamily="@font/font_dk"
-        android:text="Nome"
+        android:text="@string/Nome"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         android:layout_width="374dp"
         android:layout_height="38dp"
         android:fontFamily="@font/font_dk"
-        android:text="Quais as cores da bandeira de Senegal?"
+        android:text="@string/Questao3"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_dk"
-            android:text="Verde, Amarelo e Vermelho" />
+            android:text="@string/a" />
 
         <RadioButton
             android:id="@+id/rb2"
@@ -58,7 +58,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/font_dk"
-            android:text="Vermelho,Branco e Verde" />
+            android:text="@string/b" />
 
         <RadioButton
             android:id="@+id/rb3"
@@ -66,7 +66,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/font_dk"
-            android:text="Verde, Vermelho e Branco" />
+            android:text="@string/c" />
 
         <RadioButton
             android:id="@+id/rb4"
@@ -74,7 +74,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/font_dk"
-            android:text="Branco, Azul, Amarelo" />
+            android:text="@string/d" />
 
     </RadioGroup>
 
@@ -82,7 +82,7 @@
         android:id="@+id/btnfinalizar"
         android:layout_width="350dp"
         android:layout_height="67dp"
-        android:text="Finalizar"
+        android:text="@string/Finalizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.372"

@@ -4,4 +4,36 @@
     <string name="pergunta1"></string>
     <string name="jogar">Jogar</string>
     <string name="seu_nome">Seu nome</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="localizar">Localizar</string>
+    <string name="digite_nome">Digite o seu Nome</string>
+
+
+    <string name="Nome">Nome</string>
+    <string name="Questao1">(PUC) Um pedaço de tecido vermelho, quando observado numa sala iluminada com luz azul, parece:</string>
+    <string name="Azul">Azul</string>
+
+
+    <string name="Questao2pt1">Os olhos humanos normalmente têm três tipos de cones responsáveis pela percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores básicas, como indica a figura.</string>
+    <string name="Questao2pt2">A protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor dos cartões que lhes são mostrados. São utilizadas as cores indicadas na figura.</string>
+
+    <string name="Questao3">Quais as cores da bandeira de Senegal?</string>
+    <string name="a">Verde, Amarelo e Vermelho</string>
+    <string name="b">Vermelho,Branco e Verde</string>
+    <string name="c">Verde, Vermelho e Branco</string>
+    <string name="d">Branco, Azul, Amarelo</string>
+    <string name="Finalizar">Finalizar</string>
+
+    <string name="Informacoes">Informações</string>
+
+    <string name="BotaoVazio"></string>
+
+    <string name="Magenta">Magenta</string>
+    <string name="Amarelo">Amarelo</string>
+    <string name="Preto">Preto</string>
+    <string name="Vermelho">Vermelho</string>
+    <string name="Branco">Branco</string>
+
+
+
 </resources>
